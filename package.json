@@ -1,0 +1,33 @@
+{
+  "name": "befluent",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "application.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "coffeeify": "^1.1.0",
+    "lodash": "^3.10.0",
+    "react": "^0.13.3",
+    "react-addons": "^0.9.1-deprecated",
+    "react-router": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^16.0.0",
+    "grunt-react-templates": "^0.1.9",
+    "react-templatify": "^0.1.0"
+  }
+}

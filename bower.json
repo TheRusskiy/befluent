@@ -1,0 +1,20 @@
+{
+  "name": "befluent",
+  "version": "0.0.0",
+  "authors": [
+    "TheRusskiy <dimanrussian@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

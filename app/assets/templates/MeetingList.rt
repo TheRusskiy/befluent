@@ -1,0 +1,10 @@
+<rt-require dependency="./Meeting" as="Meeting"/>
+<div>
+  <h1>Upcoming meetings:</h1>
+  <Meeting rt-repeat="meeting in this.meetings" date="{meeting.date}" name="{meeting.name}">
+  </Meeting>
+</div>
+
+
+
+

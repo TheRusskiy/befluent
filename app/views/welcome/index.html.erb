@@ -1,0 +1,5 @@
+BEFORE
+<%= react_component('MeetingList',
+                    { initialMeetings: @meetings },
+                    { prerender: params[:noprerender].nil? }) %>
+AFTER
